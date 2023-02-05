@@ -23,7 +23,29 @@ namespace LineComparisonProblems
             else
                 Console.WriteLine("Both lines are not equal");
 
-            Console.ReadLine();
+            //UC3
+
+            CompareLines Length2 = new CompareLines(9, 1, 2, 3);
+            double _Length = Length2.Calculate();
+
+            CompareLines Length3 = new CompareLines(4, 5, 6, 7);
+            double Length = Length3.Calculate();
+
+
+            if (_Length.CompareTo(Length2) == 0)
+                Console.WriteLine("Equal");
+
+
+            else if (Length.CompareTo(Length2) > 0)
+
+                Console.WriteLine("Line one is greater");
+            else
+                Console.WriteLine("Line two is greater");
+            Console.ReadKey();
+
+        }
+
+        
         }
     }
-}
+
