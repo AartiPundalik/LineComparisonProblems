@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LineComparisonProblems
 {
-    internal class LineEquality
+    public class LineEquality
     {
         int lengthX, _lengthY, lenGthsX, lengthsY;
         public LineEquality(int lengthX, int lengthY, int lengthsX, int lengthsY)
