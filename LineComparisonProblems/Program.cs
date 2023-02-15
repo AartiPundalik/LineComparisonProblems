@@ -41,11 +41,23 @@ namespace LineComparisonProblems
                 Console.WriteLine("Line one is greater");
             else
                 Console.WriteLine("Line two is greater");
-            Console.ReadKey();
+
+
+            //UC4
+            
+                CompareToMethod line = new CompareToMethod();
+                line.Equals();
+
+                Console.ReadLine();
+       
+        }
+    }
+
+    
 
         }
 
         
-        }
-    }
+        
+    
 
